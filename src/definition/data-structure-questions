@@ -1,33 +1,103 @@
 Please answer the below Data Structure Questions:
 
 why do we need data structure?
-A.
+A. Data structures are used in computing to make it easy to locate and retrieve information.
+    in object oriented programming languages like java, a class is a data structure that organizes attributes and functions in such a way that they can be easily replicated.
 
 
 What are the various operations that can be performed on different Data Structures?
+A. The various operations that can be performed on data structures are:
+    1. Traversing- It is used to access each data item exactly once so that it can be processed.
+    2. Searching- It is used to find out the location of the data item if it exists in the given collection of data items.
+    3. Inserting- It is used to add a new data item in the given collection of data items.
+    4. Deleting- It is used to delete an existing data item from the given collection of data items.
+    5. Sorting- It is used to arrange the data items in some order i.e. in ascending or descending order in case of numerical data and in dictionary order in case of alphanumeric data.
+    6. Merging- It is used to combine the data items of two sorted files into single file in the sorted form.
+
 List out the areas in which data structures are applied extensively?
+A. 1Compiler Design, Operating System, Database Management System, Statistical analysis package, Numerical Analysis, Graphics, Artificial Intelligence, Simulation
+
 what is an Array?
+A. An array  is a dynamically-created object that serves as a container to hold constant number of values of the same type.
+
 what is the difference between the Array and ArrayList?
+A. Arrays are static in nature. Arrays are fixed length data structures. You can’t change their size once they are created.
+Whereas, ArrayList is dynamic in nature. Its size is automatically increased if you add elements beyond its capacity.
+
 what is LinkedList?
+A. LinkedList is a data structure where each element consist of three things. First one is the reference to previous element, second one is the actual value of the element and last one is the reference to next element.
+
 How is an Array different from Linked List?
+A. In array, each element is independent, no connection with previous element or with its location. In Linked list,
+location or address of elements is stored in the link part of previous element/node. In array, no pointers are used like
+linked list so no need of extra space in memory for pointer.
+
 what is queue?
+A. Java Queue interface orders the element in FIFO(First In First Out) manner. In FIFO, first element is removed first and last element is removed at last.
+Since it is an interface, we need a concrete class during its declaration. There are many ways to initialize a Queue object, most common being-
+1.	As a Priority Queue
+2.	As a LinkedList
+
 what is stack?
+A. Java provides an inbuilt object type called Stack. It is a collection that is based on the last in first out (LIFO) principle. On Creation, a stack is empty.
+
 what is FIFO and LIFO?
+FIFO: First in First Out
+LIFO: Last in First Out
+
 what is the order of complexity?
+A. It is a certain mathematical expression of the size of the input, and the algorithm finishes between two factors of it.
+   Generally, the smaller the order of complexity of the program's underlying algorithm, the faster it will run and the better it will scale as the input gets larger.
+
 what is the best case to search an element from an array?
+A. Binary search
+
 what is the worst case to search an element from an array?
+A. Hypothetical data set.
+
 what is tree in data structure?
+A. Tree represents the nodes connected by edges.
+
 what is graph in data structure?
+A. Graph is set of items connected by edges. Each item is called a vertex or node. A graph is a set of vertices and a binary relation between vertices, adjacency.
+
 what is the difference between the HashTable and HashMap?
+A.  -HashTable is synchronized  whereas hashMap is not synchronised.
+    -HashTable does not allows null keys or values whereas HashMap allows null keys.
+
 What are the major data structures used in the following areas : RDBMS, Network data model and Hierarchical data model.
+A.  -RDBMS uses Array
+    -Network data model uses Graphs and Hierarchical data model uses Trees.
+
 How HashMap works in java?
+A. HashMap works on the principal of hashing. HashMap stores both key and value object, in bucket, as an object of Entry class which implements the nested interface Map.Entry.
+    HashMap provides put(key, value) for storing and get(key) method forretrieving Values from HashMap. equals() method is used to compare objects for equality
+
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
+
 What are the different ways of copying an array into another array?
+A. Arrays inherit methods from Object class, and clone is one of them
+    Object.clone()
+    Arrays.copyOf()
+    Arrays.copyOfRange()
+    System.arraycopy()
 What is difference between an array and a linked list?
+A. In array, each element is independent, no connection with previous element or with its location. In Linked list, location or address
+    of elements is stored in the link part of previous element/node. In array, no pointers are used like linked list so no need of extra space in memory for pointer.
+
 What is DFS and BFS?
+
+
 What is Recursion?
+A. Recursion in java is a process in which a method calls itself continuously. A method in java that calls itself is called recursive method.
+
 What are linear and non linear data Structures?
+A. Linear data structures are Array, Stack, Queue and LinkedList.
+    Non Linear data structures are trees and graphs.
+
 What is Big-(O)-notation?
+
+
 Outlined different kind of sorting algorithm with time complexity?
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
