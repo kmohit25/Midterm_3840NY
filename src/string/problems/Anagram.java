@@ -18,7 +18,7 @@ public class Anagram {
 
       boolean isAnagram =isAnagram(first,second);
 
-        System.out.println(isAnagram);
+        System.out.println(first +" and "+ second +" are anagrams: "+isAnagram);
 
 
     }

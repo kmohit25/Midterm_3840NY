@@ -74,7 +74,6 @@ A. HashMap works on the principal of hashing. HashMap stores both key and value 
     HashMap provides put(key, value) for storing and get(key) method forretrieving Values from HashMap. equals() method is used to compare objects for equality
 
 What is ArrayIndexOutOfBoundsException in java? When it occurs?
-A. ArrayIndexOutOfBoundsException is a runtime Exception thrown only at runtime. It occurs when Java program tries to access an invalid index, means an index which is not positive or greater than the length of an array.
 
 What are the different ways of copying an array into another array?
 A. Arrays inherit methods from Object class, and clone is one of them
@@ -87,8 +86,7 @@ A. In array, each element is independent, no connection with previous element or
     of elements is stored in the link part of previous element/node. In array, no pointers are used like linked list so no need of extra space in memory for pointer.
 
 What is DFS and BFS?
-A. Depth First Search: DFS is a method for exploring a tree or graph. In a DFS, we go as deep as possible down one path before backing up  and trying a different one. Here DFS explore one path, hit a dead end, and go back and try a different one.
-    Breadth First Search: BFS is a method for exploring a tree or graph. In a BFS, we first explore all the nodes one step away, then all the nodes two steps away and so on. BFS traverse the tree starting with the root.
+
 
 What is Recursion?
 A. Recursion in java is a process in which a method calls itself continuously. A method in java that calls itself is called recursive method.
@@ -98,11 +96,9 @@ A. Linear data structures are Array, Stack, Queue and LinkedList.
     Non Linear data structures are trees and graphs.
 
 What is Big-(O)-notation?
-A. Big-(O) notation is used to describe the performance or complexity of an algorithm. Big-(O) specifically describes the
-   worst-case scenario, and can be used to describe the execution time required or the space used by an algorithm.
+
 
 Outlined different kind of sorting algorithm with time complexity?
-A. Insertion sort,Selection sort,Merge sort,Heapsort,Quicksort,Bubble sort,Shellsort,Comb sort
 
 Draw a table with time complexity in which it will summarize all the data structure feature's advantages and disadvantages.
   a)In terms of Accessing element.

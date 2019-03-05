@@ -164,8 +164,7 @@ What is constructor chaining in Java?
 A. Constructor chaining is the process of calling one constructor from another constructor with respect to current object
 
 The difference between Serial and Parallel Garbage Collector?
-A. Serial Collector is mostly designed for single-threaded environments.
-    Parallel Garbege Collector is used for multi-threaded environments
+
 
 What is JIT stands for?
 A. Just In Time Operator
