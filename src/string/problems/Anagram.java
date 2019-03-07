@@ -22,7 +22,7 @@ public class Anagram {
 
 
     }
-    private static boolean isAnagram(String first, String second){
+    public static boolean isAnagram(String first, String second){
 
         char [] firstWord=first.toLowerCase().replace("","").toCharArray();
         char [] secondWord=first.toLowerCase().replace("","").toCharArray();

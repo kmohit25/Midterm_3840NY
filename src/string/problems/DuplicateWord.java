@@ -14,13 +14,13 @@ public class DuplicateWord {
 
         String st = "Java is a programming Language. Java is also an Island of Indonesia. Java is widely used language";
 
-        String[] var = st.split(" ");
+        String[] find = st.split(" ");
         int len = st.length();
 
         Map<String,Integer> Map = new HashMap<>();
 
 
-        for ( String word : var ) {
+        for ( String word : find ) {
             Integer count = Map.get(word);
             if (count == null) {
                 count = 0;
