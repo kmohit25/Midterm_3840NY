@@ -22,7 +22,7 @@ public class Numbers {
 
 	public static void main(String[] args) throws Exception {
 
-		int [] num = new int[10000];
+		int [] num = new int[1000000];
 		storeRandomNumbers(num);
 		for (int i= 0;i<num.length;i++) {
 			System.out.print(num[i]+" ");
